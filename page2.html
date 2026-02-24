@@ -1,0 +1,123 @@
+<head>    
+    <!-- link style sheet code -->
+    <link href="style.css"
+        type="text/css"
+        rel="stylesheet"/>
+
+    <!-- add scrollama header info-->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Scrollama Demo: Fixed JS</title>
+    <meta name="description" content="Scrollama Demo: Fixed JS" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+</head>
+
+
+<body>
+
+    <!-- add menu button -->
+    <div id="menu-button">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+    <!-- add table of contents -->
+     <nav id="toc">
+        <ul>
+            <li><a href="page1.html">About Me</a></li>
+            <li><a href="page2.html">Work Samples</a></li>
+            <li><a href="page3.html">Upcoming Project</a></li>
+        </ul>
+    </nav>
+
+    <!-- main content -->
+    <!-- create div container for entire story -->
+    <div id="content">
+        <!-- add progress bar-->
+        <div id="progress-bar"></div>
+        <!-- add story hed -->
+        <h1>Work Samples</h1>
+
+    <!-- link scrollama to give rights -->
+    <section id="intro">
+        <p class="intro__overline">
+            <a href="https://github.com/russellsamora/scrollama">scrollama.js</a>
+        </p>
+    </section>
+
+    <!-- create section for scrollytell -->
+    <section id="scroll">
+        <article>
+            <!-- create containers and text for three steps -->
+            <div class="step" data-step="1">
+                <p class="story_title">
+                    Story Title
+                </p>
+                <p class="story_date">
+                    Date: ..
+                </p>
+                <p class="story_caption">
+                    By: ...
+                </p>
+                <p class="story_description">
+                    Story Description
+                </p>
+            </div>
+
+            <div class="step" data-step="2">
+                 <p class="story_title">
+                        Story Title
+                </p>
+                <p class="story_date">
+                    Date: ...
+                </p>
+                <p class="story_caption">
+                    By: ...
+                </p>
+                <p class="story_description">
+                    Story Description
+                </p>
+            </div>
+
+            <div class="step" data-step="3">
+                 <p class="story_title">
+                    Story Title
+                </p>
+                <p class="story_date">
+                    Date: ...
+                </p>
+                <p class="story_caption">
+                    By: ...
+                </p>
+                <p class="story_description">
+                    Story Description
+                </p>
+            </div>
+
+        </article>
+
+        <!-- create containter on right for multimedia work samples -->
+        <figure id="scrolly-figure">
+
+            <div id="scrolly-figure">
+                <img href="white.jpeg" alt="story">
+            </div>
+
+            <img id="scrolly-image" src="" class="scrolly-img" alt="">
+
+        </figure>
+    </section>
+
+    <section id="outro"></section>
+    </div>
+
+    <!-- link scrollama java code -->
+    <script src="scrollamaStarterCode.js"></script>
+    <script src="scrollamaNote.js"></script>
+    <!-- link java code -->
+    <script src="main.js"></script>
+
+</body>
+
